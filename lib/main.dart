@@ -1,7 +1,11 @@
+import 'package:examples/change_notifier_example.dart';
+import 'package:examples/inherited_widget_value_notifier.dart';
+import 'package:examples/simple_color_widget.dart';
+import 'package:examples/value_notifier_example.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(Example3RootWidget());
+  runApp(InheritedStatefulWidget());
 }
 
 class Example3RootWidget extends StatelessWidget {
